@@ -1,14 +1,14 @@
 [
     {
-        "title": "How do I add dates to my javascript?",
-        "content": "New coder here. I need to add the current date to a project I'm writing but don't know how. Help?"
+        "title": "Why MVC is so important",
+        "content": "MVC allows developers to maintain a true separation of concerns, devising their code between the Model layer for data, the View layer for design, and the Controller layer for application logic."
     },
     {
-        "title": "Autocomplete for HTML template?",
-        "content": "Does anyone have a good extension to autocomplete the HTML while writing it?"
+        "title": "Authentication vs. Authorization",
+        "content": "There is a difference between authentication and authorization. Authentication means confirming your own identity, whereas authorization means being allowed access to the system."
     },
     {
-        "title": "WHAT AM I DOING WRONG",
-        "content": "My code keeps giving me errors I've never even heard of. Can someone take a look at tell me what I'm doing wrong???"
+        "title": "Object-Relational Mapping",
+        "content": "I have really loved learning about ORMs. It's really simplified the way I create queries in SQL!"
     }
 ]
