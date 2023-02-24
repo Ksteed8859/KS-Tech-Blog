@@ -17,7 +17,7 @@ const loginFormHandler = async (event) => {
       // If successful, redirect the browser to the profile page
       document.location.replace('/homepage');
     } else {
-      alert(response.statusText);
+      alert("Incorrect Email or Password. Enter your credentials again or create a new account.");
     }
   }
 };
@@ -39,7 +39,7 @@ const signupFormHandler = async (event) => {
     if (response.ok) {
       document.location.replace('/homepage');
     } else {
-      alert(response.statusText);
+      alert("Email already has an account. Please sign in or use a different email.");
     }
   }
 };
