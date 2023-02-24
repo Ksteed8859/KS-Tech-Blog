@@ -1,0 +1,23 @@
+<div>
+  {{#each posts}}
+    <div class="column is-10 is-offset-1">
+      <div class="box">
+        <article class="media">
+          <div class="media-content">
+            <div class="content">
+              <p>
+                <div class="level-right"><small> Posted by {{user.username}} on {{format_date date_created}}</small></div>
+
+                <strong>{{title}}</strong> 
+
+                <br>
+                {{content}}
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  {{/each}}
+
+</div>
